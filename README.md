@@ -1,2 +1,2 @@
-# Programmers_Problems
-프로그래머스 문제 푼 기록
+# CodingTestPractice
+코딩테스트 문제 푼 기록
