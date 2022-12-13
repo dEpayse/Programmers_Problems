@@ -1,7 +1,7 @@
 package lv1
 
 class Pr12947 {
-    fun solution(x: Int): Boolean = x % x.toString().fold(0) { acc, c -> acc + c.digitToInt() } == 0
+    fun solution(x: Int): Boolean = x % x.toString().map { it.digitToInt() }.reduce { acc, it -> acc + it } == 0
 }
 
 fun main() {
