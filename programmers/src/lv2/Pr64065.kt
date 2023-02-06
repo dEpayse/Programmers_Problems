@@ -1,5 +1,6 @@
 package lv2
 
+// https://school.programmers.co.kr/learn/courses/30/lessons/64065
 class Pr64065 {
     fun solution(s: String): IntArray {
         val answer = mutableSetOf<Int>()

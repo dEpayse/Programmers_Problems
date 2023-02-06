@@ -1,5 +1,6 @@
 package lv2
 
+// https://school.programmers.co.kr/learn/courses/30/lessons/87390
 class Pr87390 {
     fun solution(n: Int, left: Long, right: Long): IntArray {
         val leftRow = (left / n).toInt()
