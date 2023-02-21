@@ -11,12 +11,11 @@ class Pr92341 {
                     val (hour, minutes) = time.split(":")
                     val timeToMinutes = hour.toInt() * 60 + minutes.toInt()
                     timeToMinutes
-                }
-                    .chunked(2)
-                    .sumOf {
-                        if (it.size < 2) 23 * 60 + 59 - it[0]
-                        else it[1] - it[0]
-                    }
+            }.chunked(2)
+            .sumOf {
+                if (it.size < 2) 23 * 60 + 59 - it[0]
+                else it[1] - it[0]
+            }
                 if(parkingTimeMinutes <= minTimeMinutes) minFee
                 else {
                     minFee + (Math.ceil((parkingTimeMinutes-minTimeMinutes).toDouble()/unitTimeMinutes) * unitFee).toInt()
