@@ -1,5 +1,6 @@
 package lv2
 
+// https://school.programmers.co.kr/learn/courses/30/lessons/92341
 class Pr92341 {
     fun solution(fees: IntArray, records: Array<String>): IntArray {
         val (minTimeMinutes, minFee, unitTimeMinutes, unitFee) = fees
