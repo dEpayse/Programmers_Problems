@@ -1,5 +1,6 @@
 package lv2
 
+// https://school.programmers.co.kr/learn/courses/30/lessons/132265
 class Pr132265 {
     fun solution(topping: IntArray): Int {
         val olderBrotherSet = hashSetOf<Int>()

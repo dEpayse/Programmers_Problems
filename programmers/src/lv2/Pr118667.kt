@@ -2,6 +2,7 @@ package lv2
 
 import java.util.LinkedList
 
+// https://school.programmers.co.kr/learn/courses/30/lessons/118667
 class Pr118667 {
     fun solution(queue1: IntArray, queue2: IntArray): Int {
         val realQueue1 = LinkedList(queue1.toList())

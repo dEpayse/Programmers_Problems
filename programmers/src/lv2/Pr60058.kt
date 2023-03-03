@@ -2,6 +2,7 @@ package lv2
 
 import java.util.*
 
+// https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&levels=2&languages=kotlin&page=2
 class Pr60058 {
     fun solution(p: String): String {
         if (p.isEmpty()) return ""

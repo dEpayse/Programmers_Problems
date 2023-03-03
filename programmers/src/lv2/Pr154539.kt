@@ -2,6 +2,7 @@ package lv2
 
 import java.util.*
 
+// https://school.programmers.co.kr/learn/courses/30/lessons/154539
 class Pr154539 {
     fun solution(numbers: IntArray): IntArray {
         return IntArray(numbers.size).also { answer ->
