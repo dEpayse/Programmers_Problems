@@ -3,6 +3,7 @@ package lv2
 import java.util.LinkedList
 import kotlin.math.abs
 
+//https://school.programmers.co.kr/learn/courses/30/lessons/86971
 class Pr86971 {
     fun solution(n: Int, wires: Array<IntArray>): Int {
         var answer: Int = Int.MAX_VALUE
